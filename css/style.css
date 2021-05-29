@@ -1,0 +1,350 @@
+body {
+    background-color: rgb(11, 64, 90);
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: cursive;
+    font-size: 30px;
+    text-decoration: none;
+}
+a{
+    font-family: cursive;
+    font-size: 30px;
+}
+img{
+    max-width: 100%;
+    margin-bottom: 0px;
+}
+
+.wrapper {
+    margin-top: 38px;
+}
+
+.in {
+    width: 1200px; 
+    margin: 0 auto;
+    
+}
+
+
+
+
+
+
+.wrapper .in{
+   background: #ffffff;
+   padding: 20px;
+   box-sizing: border-box;
+}
+
+.nav {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+
+.nav .in {
+    background-color: black;
+    padding: 10px;
+}
+
+.nav a {
+    color: wheat;
+    margin-right: 20px;
+}
+.program-card{
+    width: calc((100% - 20px) / 3);
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background: #f9f9f9;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    box-shadow: 0 0 30px rgba(0,0,0,.2);
+    cursor: default;
+}
+
+
+.program-card:hover {
+    box-shadow: 0 0 50px rgba(0,0,0,.3);
+}
+
+.program-card:nth-child(3n) {
+    margin-right: 0;
+}
+
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.program-card:nth-child(3n){
+    margin-right: 0;
+}
+
+.program-card-title{
+    font-weight: bold;
+    font-size: 18px;
+    color:#32a852 ;
+    text-align: center;
+    font-family: cursive;
+}
+.program-card-description{
+    color: #777777;
+    margin-top: 10px 0;
+    margin-bottom:14px ;
+}
+
+.program-card-link-a{
+    color: #32a852;
+    margin: 0px;
+    text-align: right;
+    
+}
+.poliwag{
+    color: #010708;
+    
+}
+.list:after{
+    content:"" ;
+    display: block;
+    clear: both;
+}
+.footer .in {
+    background-color: #32a852;
+    color: white;
+    display: flex;
+}
+.footer .in a{
+    color: rgb(59, 2, 92);
+}
+.col{
+    width: 50%;
+}
+
+.program-card-image-block{
+   text-align: center; 
+   position: center;
+}
+
+.program-card-image{
+    height: 150px;
+    position: center;
+}
+.header{
+    background-image:url(../images/1024px-Russian_Pokemon_logo.svg.png);
+    background-position: center;
+    background-size: cover;
+}
+.header .in{
+    background: none;
+    color: black;
+    text-align: center;
+    padding: 95px 0;
+    font-family: cursive;
+    text-shadow:  0px -10px rgba(0,0,0,.2);
+}
+
+
+.nav .active{
+    color:#ff9700;
+    font-weight: bold;
+    text-decoration:none ;
+   
+}
+
+
+.in .Tablica{
+    color: goldenrod;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 30px;
+}
+
+
+.program-card-image-block-a{
+    width: 600px;
+    position: center;
+}
+
+
+.home{
+    color: rgb(9, 5, 66);
+    text-decoration: none;
+}
+
+
+.fire{
+    color: #ff4e03;
+}
+
+.water{
+    color: blue;
+}
+
+.grass{
+    color: green;
+}
+
+.posion{
+    color: rgb(61, 2, 40);
+}
+
+
+.normal{
+    color: rgb(89, 105, 61);
+}
+
+
+.fight{
+    color: red;
+}
+
+
+.rock{
+    color: rgb(105, 79, 22);
+}
+
+.ground{
+    color: rgb(153, 113, 10);
+}
+
+.steel{
+    color: rgb(88, 88, 88);
+}
+
+.electric{
+    color: yellow;
+}
+
+
+
+.flying{
+    color: rgb(146, 199, 206);
+}
+
+
+.gost{
+    color: rgb(61, 2, 40);
+}
+
+.phsihical{
+    color: rgb(199, 9, 158);
+}
+
+
+.feary{
+    color: rgb(240, 120, 210);
+}
+
+.dark{
+    color: black;
+}
+
+.bug{
+    color: chartreuse;
+}
+
+
+
+.dragon{
+    color: maroon;
+}   
+
+
+table{
+    border: 1px solid black;
+    border-collapse:collapse ;
+}
+
+
+td,th{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+th{
+    background-color: cornflowerblue;
+    color: cornsilk;
+    font-weight: bold;
+}
+tr:nth-child(2n) td{
+   background-color: #eeeeee;
+}
+
+
+.legendary{
+    color: darkgoldenrod;
+}
+
+.mychical{
+   color: darkolivegreen;
+}
+
+
+
+
+
+.table{
+    padding: 10px;
+    background: #ffe60160;
+    color: #000000a6;
+    text-decoration: none;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+
+
+
+/*https://us04web.zoom.us/j/76838255230?*/
+
+
+
+
+
+
+
+  .shine-button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 10px 20px;
+    overflow: hidden;
+    border: 2px solid #679;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #679;
+    transition: .2s ease-in-out;
+  }
+  .shine-button:before {
+    content: "";
+    background: linear-gradient(90deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .5));
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: -8px;
+    left: -75px;
+    transform: skewX(-45deg);
+  }
+  .shine-button:hover {
+    background: #679;
+    color: #fff;
+  }
+  .shine-button:hover:before {
+    left: 150px;
+    transition: .5s ease-in-out;
+  }
+
+
+
+
+
